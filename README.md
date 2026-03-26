@@ -3,6 +3,8 @@
 
 A Windows installer and configuration toolkit for running **Cactus Canyon Continued (CCC)** alongside **Visual Pinball X (VPX)**
 
+[![Download](https://img.shields.io/badge/⬇%EF%B8%8F%20Download-P--ROC%20Installer%202026-blue?style=for-the-badge)](https://github.com/vpinhub/P-ROC-Installer-for-Cactus-Canyon-Continued/releases/download/2026-1/P-ROC_Offline_Installer_2025.zip)
+
 > [!TIP]
 > **How it works:** CCC runs entirely in software on the same PC as VPX. The P-ROC Python framework communicates with VPX via a COM bridge. VPX handles the playfield physics and rendering while the P-ROC layer provides the full Cactus Canyon Continued game logic, rules, and scoring engine. The virtual DMD is rendered by P-ROC's own Python window.
 
