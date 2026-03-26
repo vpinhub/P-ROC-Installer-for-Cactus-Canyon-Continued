@@ -5,6 +5,9 @@ A Windows installer and configuration toolkit for running **Cactus Canyon Contin
 
 [![Download](https://img.shields.io/badge/⬇%EF%B8%8F%20Download-P--ROC%20Installer%202026-blue?style=for-the-badge)](https://github.com/vpinhub/P-ROC-Installer-for-Cactus-Canyon-Continued/releases/download/2026-1/P-ROC_Offline_Installer_2025.zip)
 
+> [!NOTE]
+> **Existing installation?** `DMD-Position.bat` and `Enable-PROC-Cactus-Canyon-VPX-Table.bat` work with existing installations. `Install_PROC_CCC.bat` is for new installs only.
+
 > [!TIP]
 > **How it works:** CCC runs entirely in software on the same PC as VPX. The P-ROC Python framework communicates with VPX via a COM bridge. VPX handles the playfield physics and rendering while the P-ROC layer provides the full Cactus Canyon Continued game logic, rules, and scoring engine. The virtual DMD is rendered by P-ROC's own Python window.
 
@@ -16,7 +19,7 @@ A Windows installer and configuration toolkit for running **Cactus Canyon Contin
 ## ⚡ Requirements
 
 - **OS:** Windows 10 / 11 (64-bit) + Administrator rights
-- **Engine:** [Visual Pinball X 10.7.4](#%EF%B8%8F-vpx-version-note) *(10.8 is experimental)*
+- **Engine:** [Visual Pinball X 10.7.4](#%EF%B8%8F-vpx-version-note) *(10.8 P-ROC Support is broken)*
 - **Table:** `Cactus Canyon (Bally 1998) VPW 1.1.vpx` — [download from VPUniverse](https://vpuniverse.com/files/file/6267-cactus-canyon-continued-bally-1998-vpw-mod/)
 - **Internet:** Required during installation for DMD assets (~200MB) and game code
 
@@ -207,7 +210,7 @@ A modified VPX 10.8 folder is available — release version with legacy core.vbs
 ```
 C:\vPinball\VPinballX64108-PROC\VPinballX64-PROC.exe
 ```
-
+[![Download VPX 10.8 Mod](https://img.shields.io/badge/⬇%EF%B8%8F%20Download-VPX%2010.8%20Modified%20Build%20%28Use%20at%20Own%20Risk%29-orange?style=for-the-badge)](https://github.com/vpinhub/P-ROC-Installer-for-Cactus-Canyon-Continued/releases/download/VPX-MOD/VPinballX64108-PROC_USE_AT_OWN_RISK.zip)
 ---
 
 ## 📁 File Reference
@@ -236,12 +239,14 @@ C:\vPinball\VPinballX64108-PROC\VPinballX64-PROC.exe
 
 ## ❤️ Credits
 
+- **Original P-ROC Installer:** ninuzzu — [VPUniverse](https://vpuniverse.com/files/file/5522-cactus-canyon-continued-bally-1998/)
 - **Original CCC Code:** epthegeek — [soldmy.org](http://soldmy.org/pin/ccc/index.php?title=Main_Page) / [GitHub](https://github.com/epthegeek/cactuscanyon)
 - **CCC for VP Port:** CarnyPriest / [CCCforVP](https://github.com/CarnyPriest/CCCforVP)
 - **VPinWorkshop:** [VPW](https://vpinworkshop.com/work/)
 - **Framework:** Multimorphic (P-ROC) & pyprocgame *(software simulation mode)*
 - **DMD Mirroring:** freezy / [dmd-extensions](https://github.com/freezy/dmd-extensions)
 - **VPX Tool:** francisdb / [vpxtool](https://github.com/francisdb/vpxtool)
+- **Visual Pinball Team:** [Visual Pinball Team](https://github.com/vpinball/vpinball)
 
 ---
 
